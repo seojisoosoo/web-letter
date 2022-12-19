@@ -10,23 +10,26 @@
 </head>
 <body>
     <canvas id='snowCanvas'></canvas>
-    <header>
+    <header class="flex">
+        <img src="media/tree.png" alt="트리사진">
         <h1>고생많았던 우리 아! 타쓰형~</h1>
     </header>
     <section>
-        <audio src="media/music.mp3"></audio>
-        <div>
+        <audio autoplay loop>
+            <source src="./media/music.mp3" type="audio/mp3">
+        </audio>
+        <div id="comment" class="flex">
             <p>안녕 여러분? 그동안 정말 고생많았어!</p>
             <p>우리가 함께했던 타스 스터디... 잊지 못할 거야</p>
             <p>화요일이 참 허전하드라구..?</p>
             <p>그 동안 정말 고생많았구 덕분에 열공했어 감사해!</p>
             <p>앱잼두 화이팅하구우 앞으로의 모든 길을 응원해~</p> 
             <p>우리 꼭 종종 보기야 약속!</p>
-            <p>꼭 약속! 사인도장복사코딩</p>
+            <p>꼭 약속! 👇👇👇 사인도장복사코딩</p>
         </div>
     </section>
-    <footer>
-        <canvas id="signCanvas" style="background-color: aliceblue;" width="300" height="200"></canvas>
+    <footer class="flex">
+        <canvas id="signCanvas" width="300" height="200"></canvas>
     </footer>
 </body>
 </html>
