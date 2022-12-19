@@ -23,7 +23,7 @@ function Snowy() {
   function go(){
     window.requestAnimationFrame(go);
       snowText.clearRect(0, 0, w, h);
-      snowText.fillStyle = 'black';
+      snowText.fillStyle = '#A5B9CA';
       snowText.fillRect(0, 0, w, h);
       snowText.fill();
         for (let i = 0; i < arr.length; ++i) {
@@ -64,7 +64,7 @@ function init(){
     context=canvas.getContext("2d");
 
     context.lineWidth=2;
-    context.strokeStyle="blue";
+    context.strokeStyle="black";
 
     canvas.addEventListener("mousemove", function(e){move(e)}, false);
     canvas.addEventListener("mousedown", function(e){down(e)}, false);

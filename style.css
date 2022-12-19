@@ -17,11 +17,14 @@ body{
     left:50%; 
     transform:translate(-50%, -50%);
 
+    width: 100%;
+    height: 100%;
+
     margin: 0;
     padding: 0;
 
-    background-color: aliceblue;
     font-family: 'KOTRAHOPE';
+    /* color: aliceblue; */
 }
 
 
@@ -36,7 +39,7 @@ img{
 
 #snowCanvas{
     position: absolute;
-    z-index: 2;
+    z-index: -1;
 
     width: 100%;
     height: 100%;
@@ -51,6 +54,6 @@ img{
 }
 
 #signCanvas{
-    background-color: aliceblue;
+    background-color: #f0f8ff;
     border: 1px solid black
 }
